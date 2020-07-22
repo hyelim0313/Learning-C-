@@ -1,0 +1,145 @@
+//if 구문 배우기
+
+#include <iostream>
+
+int main() {
+
+  int grade = 90;
+
+if (grade > 60) {
+
+  std::cout << "Pass\n";
+}
+  
+}
+
+
+
+
+//if ~ else 구문 배우기
+
+#include <iostream>
+
+int main() {
+
+  int grade = 59;
+
+  if (grade > 60) {
+
+    std::cout << "Pass\n";
+
+  } else {
+
+    std::cout << "Fail\n";
+
+  }
+  
+  
+  
+ //if, elseif, if 구문 배우기
+ 
+ #include <iostream>
+
+int main() {
+  
+  double ph = 4.6;
+  
+  // Write the if, else if, else here:
+  
+  if(ph > 7) {
+    std::cout << "Basic\n";
+  }
+
+  else if(ph < 7) {
+    std::cout << "Acidic\n";
+  }
+
+  else {
+    std::cout << "Neutral\n";
+  }
+  
+  
+  //Switch 구문 배우기
+  
+  #include <iostream>
+
+int main() {
+  
+  int number = 9;
+  
+  switch(number) {
+    
+    case 1 :
+      std::cout << "Bulbusaur\n";
+      break;
+    case 2 :
+      std::cout << "Ivysaur\n";
+      break;
+    case 3 :
+      std::cout << "Venusaur\n";
+      break;
+    case 4 :
+      std::cout << "Charmander\n";
+      break;
+    case 5 :
+      std::cout << "Charmeleon\n";
+      break;
+    case 6 :
+      std::cout << "Charizard\n";
+      break;
+    default :
+      std::cout << "Unknown\n";
+      break;
+    case 7 : 
+      std::cout << "Squirtle\n";
+      break;
+    case 8 :
+      std::cout << "Wartortle\n";
+      break;
+    case 9 :
+      std::cout << "Blastoise\n";
+      break;
+  }
+  
+}
+
+
+//space weight practice
+#include <iostream>
+
+int main() {
+  
+  double weight;
+  int x;
+
+  std::cout << "How much do you weigh? :\n";
+  std::cin >> weight;
+
+  std::cout << "What planet are you fighting in? : 1. Venus 2. Mars 3. Jupiter 4. Saturn 5. Uranus 6. Neptune\n";
+  std::cin >> x;
+
+  if (x == 1) {
+    weight = weight * 0.78;
+  } 
+    else if (x == 2) {
+    weight = weight * 0.39;
+  } 
+    else if (x == 3) {
+    weight = weight * 2.65;
+  }
+
+    else if (x == 4) {
+    weight = weight * 1.17;
+  }
+
+    else if (x == 5) {
+    weight = weight * 1.05;
+    }
+
+    else if (x == 6) {
+    weight = weight * 1.23;
+    }
+
+ std::cout << "\nYour weight: " << weight << "\n";
+  
+}
