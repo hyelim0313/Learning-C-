@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main() 
+{
+  
+  std::cout << "Dear Self,\n";
+  std::cout << "I'll get a job in 6 months\n";
+  std::count << "Hyelim, 20.07.22";
+  
+  
+  
+  
+}
