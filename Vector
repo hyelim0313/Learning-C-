@@ -1,0 +1,20 @@
+// Learning Vector
+
+#include <iostream>
+
+//벡터 사용 전에는 항상 #include <vector>
+#include <vector>
+
+int main() {
+  
+  // Vector 변수 선언 문법 -> Vector <데이터의 타입> 데이터의 이름;
+  
+  std::vector<double> subway_adult;
+  
+  // Declare another vector here:
+  std::vector<double> subway_child;
+    
+  
+}
+
+
