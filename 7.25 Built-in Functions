@@ -1,0 +1,22 @@
+#include <iostream>
+
+int main() {
+  
+  // This seeds the random number generator:
+  srand (time(NULL));
+  
+  // Use rand() below to initialize the_amazing_random_number
+
+  int the_amazing_random_number = rand () % 29;
+
+  std::cout << the_amazing_random_number << "\n";
+
+ 
+  
+  
+}
+
+/* 원래 짰던 코드는 
+  int the_amazing_random_number
+  the_amazing_random_number = rand() % 29인데 이 둘을 따로따로 쓸 필요가 없이
+  int the amazing_random_number = rand() % 29와 같이 initializing하면 좀 더 간결하게 코드를 쓸 수 있다.*/
