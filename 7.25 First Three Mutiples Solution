@@ -1,0 +1,26 @@
+#include <iostream>
+#include <vector>
+
+// Define \first_three_multiples() here:
+std::vector<int>first_three_multiples(int num) {
+//함수를 정의할 때 이렇게 해도 되는 건가?
+/* return type 작성하고 function name 작성하고 (parameters) {
+    여기에 코딩
+    return output
+    } 
+    이게 함수의 기본 구조인 줄 알았는데 갑자기 std::vector가 왜 나오는지 모르겠다.
+    알게 되면 나중에 추가할 것이다*/
+  
+  std::vector<int>multiples{num, num * 2, num * 3};
+  
+  return multiples;
+  
+}
+
+int main() {
+  
+  for (int element : first_three_multiples(8)) {
+    std::cout << element << "\n";
+  }
+  
+}
